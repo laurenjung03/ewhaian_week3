@@ -1,0 +1,71 @@
+body{
+    background-color: black;
+}
+a{
+    font-size:20px;
+    margin-right:40px;
+    text-decoration:none;
+}
+img{
+    margin-right: 300px;
+}
+.dome{
+    border: 2px solid #16F529 ;
+    border-radius: 20px;
+}
+.result-link{
+    margin-right: 100px;
+}
+header{
+  
+     font-family: 'NanumBarunGothic';
+
+}
+main{
+    color:white;
+    margin-top:70px
+}
+h2{
+    margin-left:40px;
+    margin-right:40px;
+    font-size: 50px;
+}
+.dome2{
+    border-radius:20px;
+    border: 5px solid white ;
+    color:black;
+    background-color: white;
+   
+
+}
+.table2{
+    margin: 0 20px;
+}
+.table3, .table4, .table5, .table6{
+    background-color:#303030;
+    margin: 0 30px;
+    margin-top: 30px;
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 20px; /* Add border radius */
+    width: 95%; 
+    color:white;
+}
+
+
+.size{
+    font-size: 18px;
+}
+
+#OperationFaq2, #operationFaq, #miscLink {
+    color: white; /* 기본 글자 색상을 흰색으로 설정 */
+    display: inline-block; /* 블록 요소처럼 크기와 여백을 조정할 수 있게 함 */
+    padding: 5px 10px; /* 텍스트 주변에 여백 추가 */
+    border-radius: 15px; /* 모서리를 둥글게 */
+    transition: background-color 0.3s, color 0.3s; /* 배경색과 텍스트 색상 변경 시 애니메이션 효과 */
+}
+
+/* hover 상태 */
+#OperationFaq2:hover, #operationFaq:hover, #miscLink:hover {
+    background-color: white; /* 배경색 하얀색으로 */
+    color: #FF69B4; /* 텍스트 색상을 핑크색으로 변경 */
+}
